@@ -1,0 +1,58 @@
+import { Review } from '../types';
+
+export const reviews: Review[] = [
+  {
+    id: 'rev-1',
+    author: 'Ananya Verma',
+    rating: 5,
+    date: '2 days ago',
+    comment: 'Lovely place for an evening coffee. The cappuccino was excellent and the ambience was very relaxed. The warm wooden tables and soft jazz make it effortless to unwind.',
+    favoriteItem: 'Classic Cappuccino & Hazelnut Torte',
+    visitType: 'Evening Coffee Date',
+  },
+  {
+    id: 'rev-2',
+    author: 'Rohan Mathur',
+    rating: 5,
+    date: '1 week ago',
+    comment: 'One of my favourite places to work from in Civil Lines. Good coffee, hearty food, plenty of plug points, and reliable Wi-Fi that never drops during calls.',
+    favoriteItem: 'Cold Brew & Avocado Sourdough Toast',
+    visitType: 'Work from Café',
+  },
+  {
+    id: 'rev-3',
+    author: 'Mehak Agarwal',
+    rating: 5,
+    date: '2 weeks ago',
+    comment: 'We ordered the Alfredo pasta, garlic confit bread and baked cheesecake. Everything was fresh, properly seasoned and nicely presented without any fuss.',
+    favoriteItem: 'Fettuccine Alfredo & NY Cheesecake',
+    visitType: 'Family Dinner',
+  },
+  {
+    id: 'rev-4',
+    author: 'Kabir Sengupta',
+    rating: 5,
+    date: '3 weeks ago',
+    comment: 'The Iced Spanish Latte and Chicken Pesto Sandwich are unbeatable. Great outdoor seating under the gulmohar trees when the evening breeze picks up.',
+    favoriteItem: 'Iced Spanish Latte & Chicken Pesto Panini',
+    visitType: 'Weekend Hangout',
+  },
+  {
+    id: 'rev-5',
+    author: 'Priyanka Tandon',
+    rating: 5,
+    date: '1 month ago',
+    comment: 'Finally a café in Kanpur with exceptional specialty beans, correct espresso extraction, and genuine eggless bakes. You can taste the care in every cup.',
+    favoriteItem: 'Velvet Flat White',
+    visitType: 'Solo Coffee Routine',
+  },
+  {
+    id: 'rev-6',
+    author: 'Siddharth Bajpai',
+    rating: 5,
+    date: '1 month ago',
+    comment: 'Staff is warm and attentive, playlists are mellow and understated, and the truffle fries were gone in two minutes flat. Highly recommended.',
+    favoriteItem: 'Cheesy Truffle Loaded Fries',
+    visitType: 'Catch-up with Friends',
+  },
+];

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #120E0B;
+    color: #F9F4EB;
+    font-family: 'Plus Jakarta Sans', Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+
+  .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFFDF9 20%, #F3C082 60%, #D48B46 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-amber-gradient {
+  background: linear-gradient(135deg, #F8D8A8 0%, #E5A967 50%, #B66F2C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #120E0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282019;
+  border-radius: 4px;
+  border: 1px solid rgba(229, 169, 103, 0.15);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4D3F33;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle focus ring */
+*:focus-visible {
+  outline: 2px solid #E5A967;
+  outline-offset: 2px;
+}
